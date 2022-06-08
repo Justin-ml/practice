@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: aliceblue;
+}
+
+.contact-container {
+  width: 300px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.cat-img {
+  width: 240px;
+  height: 170px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.contact-name {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.contact-number {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  line-height: 1.5rem;
+}
+
+.phone-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.contact-mail {
+  display: flex;
+  align-items: center;
+}
+
+.mail-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
